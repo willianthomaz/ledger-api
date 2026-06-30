@@ -1,26 +1,26 @@
 # NorthBridge Ledger Service
 
-A backend engineering portfolio project designed to simulate a real fintech ledger service.
+Projeto de portfólio backend criado para simular um serviço de ledger financeiro de uma fintech real.
 
-This repository is part of the **International Backend Engineer Journey**.
+Este repositório faz parte da jornada **International Backend Engineer Journey**.
 
-## Product Context
+## Contexto do produto
 
-NorthBridge Financial is a fictional fintech company that provides payment infrastructure for digital businesses.
+A **NorthBridge Financial** é uma fintech fictícia que fornece infraestrutura de pagamentos para empresas digitais.
 
-The **Ledger Service** is responsible for recording financial movements in a consistent, auditable and reliable way.
+O **Ledger Service** é responsável por registrar movimentações financeiras de forma consistente, auditável e confiável.
 
-## Main Goals
+## Principais objetivos
 
-- Build a production-style Java backend service.
-- Practice real engineering workflow using GitHub Issues and Pull Requests.
-- Document architecture decisions with ADRs.
-- Learn backend concepts through practical implementation.
-- Prepare for international backend engineering interviews.
+- Construir um serviço backend Java com aparência de produção.
+- Praticar um fluxo real de engenharia usando GitHub Issues e Pull Requests.
+- Documentar decisões arquiteturais com ADRs.
+- Aprender conceitos backend por meio de implementação prática.
+- Preparar repertório técnico para entrevistas backend internacionais.
 
-## Tech Stack
+## Stack técnica
 
-Initial target stack:
+Stack alvo inicial:
 
 - Java 21
 - Spring Boot 3
@@ -37,28 +37,28 @@ Initial target stack:
 - Grafana
 - GitHub Actions
 
-## Repository Status
+## Status do repositório
 
-Current phase: **Sprint 0 — Project Foundation**
+Fase atual: **Sprint 0 — Fundação do projeto**
 
-No production code has been implemented yet.
+Ainda não existe código de aplicação implementado.
 
-## Engineering Workflow
+## Fluxo de engenharia
 
-The project will follow a professional workflow:
+O projeto seguirá um fluxo profissional:
 
-1. Business refinement
-2. Technical refinement
-3. Development
+1. Refinamento de negócio
+2. Refinamento técnico
+3. Desenvolvimento
 4. Pull Request
-5. Code review
-6. Adjustments
+5. Code Review
+6. Ajustes
 7. Merge
-8. Sprint review
+8. Revisão da Sprint
 
-## Documentation
+## Documentação
 
-Planned documentation structure:
+Estrutura de documentação planejada:
 
 ```text
 docs/
@@ -69,6 +69,16 @@ docs/
 └── journal/
 ```
 
-## Learning Notes
+## Notas de aprendizado
 
-This project intentionally introduces concepts gradually. Docker, messaging, observability and GitHub workflows will be added when the product needs them.
+Este projeto introduz conceitos gradualmente. Docker, mensageria, observabilidade e fluxos do GitHub serão adicionados quando o produto precisar deles.
+
+## English Corner
+
+| Português | Inglês |
+|---|---|
+| Serviço | Service |
+| Ledger / livro razão | Ledger |
+| Movimentação financeira | Financial movement |
+| Repositório | Repository |
+| Fluxo de engenharia | Engineering workflow |
