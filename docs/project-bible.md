@@ -1,67 +1,77 @@
-# Project Bible
+# Documento Mestre do Projeto
 
 ## International Backend Engineer Journey
 
-### Project
+### Projeto
 
 **NorthBridge Ledger Service**
 
-### Company Context
+### Contexto da empresa
 
-NorthBridge Financial is a fictional fintech company based in the United States.
+A **NorthBridge Financial** é uma fintech fictícia localizada nos Estados Unidos.
 
-The company provides payment infrastructure for businesses that need reliable account movement tracking, balance calculation and financial auditability.
+A empresa fornece infraestrutura de pagamentos para negócios que precisam rastrear movimentações de contas, calcular saldos e manter auditoria financeira de forma confiável.
 
-### Role
+### Papel no projeto
 
-You are acting as a **Backend Software Engineer** in the **Payments Platform** team.
+Você atua como **Backend Software Engineer** dentro do time de **Payments Platform**.
 
-### Product Mission
+### Missão do produto
 
-Build a ledger service capable of recording financial movements safely, consistently and with strong auditability.
+Construir um serviço de ledger capaz de registrar movimentações financeiras com segurança, consistência e forte capacidade de auditoria.
 
-### Engineering Principles
+### Princípios de engenharia
 
-- Prefer clarity over cleverness.
-- Business rules must be explicit.
-- Financial values must never use floating point types.
-- Data consistency matters more than convenience.
-- Every relevant decision should be documented.
-- Tests are part of the feature, not optional work.
-- Operational concerns matter: logs, metrics and errors must be designed intentionally.
+- Preferir clareza em vez de soluções excessivamente inteligentes.
+- Regras de negócio devem ser explícitas.
+- Valores financeiros nunca devem usar tipos de ponto flutuante.
+- Consistência dos dados é mais importante do que conveniência.
+- Toda decisão relevante deve ser documentada.
+- Testes fazem parte da funcionalidade, não são trabalho opcional.
+- Preocupações operacionais importam: logs, métricas e erros devem ser pensados de forma intencional.
 
-### Initial Scope
+### Escopo inicial
 
-The first version of the service will support:
+A primeira versão do serviço deverá suportar:
 
-- Account registration
-- Credit and debit entries
-- Balance calculation
-- Transaction statement
-- Idempotent transaction creation
-- Standardized error responses
-- Integration tests
-- Documentation and architecture records
+- Cadastro de contas
+- Lançamentos de crédito e débito
+- Cálculo de saldo
+- Extrato de transações
+- Criação idempotente de transações
+- Respostas de erro padronizadas
+- Testes de integração
+- Documentação e registros de arquitetura
 
-### Out of Scope for the First Phase
+### Fora do escopo da primeira fase
 
-- Android or mobile development
-- Real payment provider integration
-- Real customer data
-- Cloud deployment
+- Desenvolvimento Android ou mobile
+- Integração com provedor real de pagamentos
+- Dados reais de clientes
+- Deploy em cloud
 - Kubernetes
 
-### Learning Strategy
+### Estratégia de aprendizado
 
-The project will introduce tools gradually:
+As ferramentas serão introduzidas gradualmente:
 
-- GitHub workflow first
-- Java and Spring Boot foundation
-- PostgreSQL and Flyway when persistence is needed
-- Docker when local infrastructure is needed
-- RabbitMQ when asynchronous processing is needed
-- Observability when the service has behavior worth monitoring
+- Primeiro, fluxo de trabalho com GitHub
+- Depois, base Java e Spring Boot
+- PostgreSQL e Flyway quando persistência for necessária
+- Docker quando infraestrutura local for necessária
+- RabbitMQ quando processamento assíncrono for necessário
+- Observabilidade quando o serviço tiver comportamento suficiente para monitorar
 
-### Sprint 0 Goal
+### Objetivo da Sprint 0
 
-Prepare the repository, workflow and documentation before implementing business features.
+Preparar o repositório, o fluxo de trabalho e a documentação antes de implementar funcionalidades de negócio.
+
+## English Corner
+
+| Português | Inglês |
+|---|---|
+| Documento mestre | Project Bible |
+| Missão do produto | Product mission |
+| Princípios de engenharia | Engineering principles |
+| Escopo inicial | Initial scope |
+| Estratégia de aprendizado | Learning strategy |
