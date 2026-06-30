@@ -1,34 +1,46 @@
-# ADR-001: Use Java 21
+# ADR-001: Usar Java 21
 
 ## Status
 
-Accepted
+Aceita
 
-## Context
+## Contexto
 
-The Ledger Service is intended to represent a production-style backend service for a fintech environment.
+O **Ledger Service** deve representar um serviço backend com aparência de produção dentro de um ambiente de fintech.
 
-The project should use a modern Java version while staying aligned with enterprise backend job requirements.
+O projeto precisa usar uma versão moderna do Java, mas sem se afastar das exigências comuns de vagas backend enterprise.
 
-## Decision
+## Decisão
 
-We will use **Java 21** as the main programming language version.
+Vamos usar **Java 21** como versão principal da linguagem no projeto.
 
-## Rationale
+## Justificativa
 
-Java 21 is a Long-Term Support version and is widely adopted in modern backend systems.
+Java 21 é uma versão LTS (*Long-Term Support*) e está alinhada com aplicações backend modernas.
 
-It allows the project to demonstrate current Java knowledge while remaining relevant to enterprise environments that value stability and maintainability.
+Essa escolha permite demonstrar conhecimento atual em Java, mantendo o projeto relevante para ambientes enterprise que valorizam estabilidade, manutenção e compatibilidade com Spring Boot 3.
 
-## Consequences
+## Consequências
 
-Positive:
+### Positivas
 
-- Aligns the project with modern Java backend roles.
-- Supports current Spring Boot versions.
-- Demonstrates knowledge beyond legacy Java versions.
+- Alinha o projeto com vagas backend Java modernas.
+- Suporta versões atuais do Spring Boot.
+- Demonstra conhecimento além de versões antigas como Java 8.
+- Permite discutir recursos modernos da linguagem em entrevistas.
 
-Negative:
+### Negativas
 
-- Some companies still use Java 8, 11 or 17.
-- The developer must be aware of version compatibility when discussing the project in interviews.
+- Algumas empresas ainda utilizam Java 8, 11 ou 17.
+- Será importante explicar em entrevistas que a escolha foi feita por ser uma versão LTS moderna.
+- O desenvolvedor precisa ficar atento à compatibilidade de bibliotecas.
+
+## English Corner
+
+| Português | Inglês |
+|---|---|
+| Decisão arquitetural | Architectural decision |
+| Status | Status |
+| Contexto | Context |
+| Justificativa | Rationale |
+| Consequência | Consequence |
